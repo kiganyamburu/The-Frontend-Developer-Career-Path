@@ -10,5 +10,6 @@ body {
 .card {
   border: dotted blue;
   padding: 10px;
-  width: 200px;
+  width: 400px;
+  display: flex;
 }
