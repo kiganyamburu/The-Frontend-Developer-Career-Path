@@ -8,7 +8,7 @@ body {
   margin: 10px;
 }
 .card {
-  border: 1px dotted blue;
+  /* border: 1px dotted blue; */
   padding: 20px;
   width: 400px;
   display: flex;
@@ -20,6 +20,9 @@ body {
   background-color: #ddebf8;
   color: black;
 }
-.dotted {
+/* .dotted {
   border: 1px dotted blue;
+} */
+p:hover {
+  color: blue;
 }
