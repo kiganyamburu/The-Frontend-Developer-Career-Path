@@ -22,3 +22,6 @@ body {
 .underline {
   border-bottom: 4px solid;
 }
+#logo {
+  width: 50px;
+}
