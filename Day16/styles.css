@@ -22,7 +22,7 @@ body {
   font-weight: bold;
 }
 .underline {
-  border-bottom: 4px solid;
+  border-bottom: 4px solid white;
 }
 #logo {
   width: 50px;
