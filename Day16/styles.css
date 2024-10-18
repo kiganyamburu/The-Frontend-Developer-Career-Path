@@ -1,6 +1,6 @@
 body {
   /* css funtion  background-image: url("images/universe.jpg"); */
-  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXozMmF4cGttc21jYWNkdW1tdnV6dzczaG5peW9pZzBhN214c2ZlbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iicDrNGWxHmDrIni6j/giphy.gif");
+
   color: #00a6fb;
   background-size: cover;
   text-align: center;
@@ -20,10 +20,19 @@ body {
   font-style: normal;
   color: #00a6fb;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 .underline {
   border-bottom: 4px solid white;
 }
 #logo {
   width: 50px;
+  border-style: none;
+}
+.con {
+  background-color: aliceblue;
+  height: 50px;
+}
+.hero {
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXozMmF4cGttc21jYWNkdW1tdnV6dzczaG5peW9pZzBhN214c2ZlbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iicDrNGWxHmDrIni6j/giphy.gif");
 }
