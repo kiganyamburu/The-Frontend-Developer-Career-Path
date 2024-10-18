@@ -1,7 +1,7 @@
 body {
   /* css funtion  background-image: url("images/universe.jpg"); */
   background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXozMmF4cGttc21jYWNkdW1tdnV6dzczaG5peW9pZzBhN214c2ZlbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iicDrNGWxHmDrIni6j/giphy.gif");
-  color: white;
+  color: #00a6fb;
   background-size: cover;
   text-align: center;
   font-family: "Orbitron", sans-serif;
@@ -18,6 +18,8 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  color: #00a6fb;
+  font-weight: bold;
 }
 .underline {
   border-bottom: 4px solid;
