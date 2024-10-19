@@ -54,3 +54,7 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.gift-img {
+  width: 400px;
+}
