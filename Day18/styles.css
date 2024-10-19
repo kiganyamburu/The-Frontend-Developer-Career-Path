@@ -34,9 +34,18 @@ p {
 
 /* Styling the h2 and h4 to be pink */
 
-h2,
-h4 {
+#bday-age {
   background-color: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#bday-year {
+  background-color: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
 }
 
 #header {
