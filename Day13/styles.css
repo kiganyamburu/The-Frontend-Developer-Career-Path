@@ -4,7 +4,9 @@ body {
 
 .nav-bar {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
   margin-left: 100px;
 }
 li {
@@ -34,7 +36,10 @@ button {
   height: 300px;
 }
 .sky-net {
-  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 p {
   font-size: 20px;
