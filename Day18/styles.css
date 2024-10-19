@@ -38,3 +38,10 @@ h2,
 h4 {
   background-color: #efb0c9;
 }
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
