@@ -54,7 +54,19 @@ p {
   justify-content: center;
   align-items: center;
 }
+.how-happy {
+  margin-bottom: 10px;
+}
+
+.hover-over {
+  margin-top: 0;
+}
 
 .gift-img {
   width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.gift-section {
+  margin-top: 50px;
 }
