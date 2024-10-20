@@ -74,3 +74,21 @@ p {
 .gift-section {
   margin-top: 50px;
 }
+
+.gift-img:hover {
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3FseXg3am9rZjl5a2ltbTFzYXllMjNtcndpdDQ0NDIzMzEwbTVqNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YnBntKOgnUSBkV7bQH/giphy.gif");
+}
+
+#gift-img {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift.jpg");
+  background-size: cover;
+}
+
+#gift-img:hover {
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnhma3g3d3VpOXpiaXhuY3NjaGU3Zm03bTg2NmYwdzQyMm5zMnZwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/GtoVmPCZ4ngO09OK5Y/giphy.gif");
+}
