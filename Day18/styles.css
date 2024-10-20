@@ -82,3 +82,18 @@ p {
 #gift-img-hot:hover {
   background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGZxNWhzNGVxY2p4anRqa241emx6cjdkdmF2MWUzdjNrYWFiYXpjeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ckB5razpgN2rd4qTfe/giphy.gif");
 }
+
+#gift-img-one:hover {
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm40bGQ5cG1td213N3NtdXp1Zmszdmwxa29zeWx3MXIxeGQzdmV5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/7Q4iqaOMJKrtmw8CZd/giphy.gif");
+}
+
+#gift-img-genius:hover {
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnlzaHo0am01Z3QybWFoeXZlemR3eXh2MjRrcWp1Mnpybm5tcWJxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xr9ZKY1wbbJXDW/giphy.gif");
+}
+
+#gift-img-cheer:hover {
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExank3Y3ExMXZ1N21nZXdrNGZvcG5ieHdkcW54N3Z1Y2c0YXU0NTE0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/166euSZQqVqjvQavXv/giphy-downsized-large.gif");
+}
+div.gift-img#gift-img-cheer {
+  height: 200px;
+}
