@@ -1,9 +1,12 @@
 body {
   margin: 0;
-  background: linear-gradient(skyblue pink);
+  /* background: linear-gradient(skyblue pink); */
+  background-image: url("images/universe.jpg");
+  background-size: cover;
   font-family: "Prociono", serif;
   font-weight: 500;
   font-style: normal;
+  color: white;
 }
 
 nav {
@@ -49,7 +52,23 @@ p {
   text-align: center;
   margin-top: 3px;
 }
+
 h2,
 p {
   margin-top: 0;
+}
+
+.img-one {
+  width: 300px;
+  margin-bottom: 0;
+}
+.img-two {
+  width: 300px;
+  margin-top: 10px;
+}
+.img-three {
+  width: 300px;
+}
+.img-four {
+  width: 300px;
 }
