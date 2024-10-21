@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: linear-gradient(skyblue pink);
+  font-family: "Prociono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+}
