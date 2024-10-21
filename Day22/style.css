@@ -1,9 +1,20 @@
 th {
   background-color: blue;
+  color: white;
 }
 
 td {
   background-color: greenyellow;
   text-align: start;
-  padding-left: 10px;
+  padding: 10px 10px;
+}
+.sum {
+  background-color: green;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
