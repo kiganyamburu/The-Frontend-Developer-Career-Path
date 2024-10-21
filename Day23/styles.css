@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: linear-gradient(skyblue pink);
   font-family: "Prociono", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -24,4 +24,21 @@ nav li {
   list-style-type: none;
   display: inline-block;
   margin-right: 10px;
+}
+
+.mid-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.pet-img {
+  width: 300px;
+  border-radius: 150px;
+  margin-top: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: purple;
 }
