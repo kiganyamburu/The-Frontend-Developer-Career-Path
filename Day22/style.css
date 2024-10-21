@@ -1,0 +1,9 @@
+th {
+  background-color: blue;
+}
+
+td {
+  background-color: greenyellow;
+  text-align: start;
+  padding-left: 10px;
+}
