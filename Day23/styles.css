@@ -38,7 +38,7 @@ nav li {
 }
 
 .pet-img {
-  width: 300px;
+  width: 200px;
   border-radius: 150px;
   margin-top: 5px;
   border-width: 5px;
@@ -71,4 +71,17 @@ p {
 }
 .img-four {
   width: 300px;
+}
+.bottom-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  height: auto;
+  margin-bottom: auto;
+}
+.bottom-part a {
+  color: white;
+  text-decoration: none;
 }
