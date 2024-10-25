@@ -12,6 +12,9 @@ body {
   margin: 0;
   text-align: center;
   background: linear-gradient(skyblue, pink);
+  font-family: "Luxurious Roman", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 img {
