@@ -26,8 +26,9 @@ img {
   width: 100px;
   border-radius: 90px;
 }
-#img {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+.last {
+  width: 200px;
+  border: 10px solid black;
+  color: red;
 }
