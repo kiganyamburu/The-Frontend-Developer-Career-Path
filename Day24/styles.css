@@ -11,8 +11,7 @@ DARK BLUE: #1D3557
 body {
   margin: 0;
   text-align: center;
-  background-image: url("images/baloon.jpg");
-  background-size: cover;
+  background: linear-gradient(skyblue, pink);
 }
 
 img {
