@@ -31,4 +31,6 @@ img {
   width: 200px;
   border: 10px solid black;
   color: red;
+  background-color: green;
+  box-shadow: 1px 1px;
 }
