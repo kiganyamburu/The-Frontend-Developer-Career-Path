@@ -19,3 +19,7 @@ function increment() {
 
   console.log(count);
 }
+function save() {
+  console.log(count);
+}
+save();
