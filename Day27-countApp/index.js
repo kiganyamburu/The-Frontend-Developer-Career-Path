@@ -1,25 +1,20 @@
-// document.getElementById("count").innerText = 5
-
-// let count = 5
-// count = count + 1
-// console.log(count)
-
-// intialize the count as 0
-// listen for clicks on the increment button
-// increment the count variable when the button is clicked
-// change the count-el in the HTML to reflect the new count
+// 1. Grab the save-el paragrah and store it in a variable called saveEl
+let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
-
-console.log(countEl);
-
 let count = 0;
+
+console.log(saveEl);
 
 function increment() {
   count += 1;
+  countEl.innerText = count;
+}
 
-  console.log(count);
-}
 function save() {
+  let countStr = count + " - ";
+  // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
+  // 3. Render the variable in the saveEl using innerText
+  saveEl.innerText += countStr;
+  // NB: Make sure to not delete the existing content of the paragraph
   console.log(count);
 }
-save();
