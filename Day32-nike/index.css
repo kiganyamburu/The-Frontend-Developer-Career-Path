@@ -13,8 +13,8 @@ p {
   margin-bottom: 5px;
 }
 button {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   margin-top: 10px;
   border: 1px solid black;
   padding: 10px 16px;
@@ -26,4 +26,9 @@ button {
 #error {
   color: red;
   font-weight: 200;
+}
+
+button:hover {
+  color: white;
+  background: blue;
 }
