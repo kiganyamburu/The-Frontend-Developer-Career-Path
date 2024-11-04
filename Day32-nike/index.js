@@ -1,7 +1,7 @@
 let message = document.getElementById("error");
+console.log(message);
 
 function displayError() {
-  let message = "An error occurred, please try again later";
+  console.log("button clicked");
+  message.textContent = "An error occurred, please try again later";
 }
-
-displayError();
