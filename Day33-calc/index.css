@@ -22,3 +22,7 @@ button {
   padding: 5px 8px;
   border-radius: 9px;
 }
+button:hover {
+  background: black;
+  color: white;
+}

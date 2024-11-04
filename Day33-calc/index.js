@@ -8,6 +8,7 @@ function add() {
   let sum = num1 + num2;
   document.getElementById("sum-el").textContent = "Sum: " + sum;
 }
+// add();
 
 function subtract() {
   let sum = num1 - num2;
