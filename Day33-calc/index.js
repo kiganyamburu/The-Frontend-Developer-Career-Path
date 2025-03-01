@@ -2,7 +2,7 @@ let num1 = 8;
 let num2 = 2;
 document.getElementById("num1-el").textContent = num1;
 document.getElementById("num2-el").textContent = num2;
-
+Day33-calc/index.js
 // Create four functions: add(), subtract(), divide(), multiply()
 function add() {
   let sum = num1 + num2;
