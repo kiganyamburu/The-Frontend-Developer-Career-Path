@@ -8,3 +8,14 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+.home-card{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.guest-card{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
