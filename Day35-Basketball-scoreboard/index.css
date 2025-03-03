@@ -3,31 +3,36 @@ body {
     background-color: #1B244A;
     color: #FFFFFF;
 }
-
 .container {
     display: flex;
     justify-content: space-around;
 }
+.container h3{
+    font-family: "Verdana";
+    margin-bottom: 2px;
+    text-align: center;
+    width: 100px;
 
+}
 .home-card{
-    /* height: 150px;
-    width: 150px; */
-    padding: 30;
+    padding: 20;
     background-color: black;
     font-family: Cursed Timer ULiL;
     color: #F94F6D;
     text-align: center;
 }
-
 .guest-card{
     /* height: 150px;
     width: 150px; */
-    padding: 30;
+    padding: 20;
     background-color: black;
     font-family:Cursed Timer ULiL;
     color: #F94F6D;
     text-align: center;
     font-size: large;
+}
+button{
+    cursor: pointer;
 }
 .guest-btn{
     background-color: #1B244A;
@@ -43,17 +48,24 @@ body {
 .hm-btn-two,
 .hm-btn-three{
     background-color: #1B244A;
+    text-align: center;
+    justify-content: center;
     outline: none;
     color: darkgrey;
     border: 1px solid darkgrey;
+    border-radius: 3px;
+    font-family:Cursed Timer ULiL;
 }
 .gst-btn-one,
 .gst-btn-two,
 .gst-btn-three{
     background-color: #1B244A;
+    border-radius: 3px;
+    text-align: center;
     outline: none;
     color: darkgrey;
     border: 1px solid darkgrey;
+    font-family:Cursed Timer ULiL;
 }
 
 
