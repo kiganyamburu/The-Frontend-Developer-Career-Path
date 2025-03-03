@@ -10,31 +10,50 @@ body {
 }
 
 .home-card{
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
+    padding: 30;
     background-color: black;
     font-family: Cursed Timer ULiL;
     color: #F94F6D;
     text-align: center;
 }
+
 .guest-card{
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
+    padding: 30;
     background-color: black;
     font-family:Cursed Timer ULiL;
     color: #F94F6D;
     text-align: center;
     font-size: large;
 }
-
 .guest-btn{
+    background-color: #1B244A;
     margin-top: 10px;
     font-family:Cursed Timer ULiL;
 }
 .home-btn{
+    background-color: none;
     margin-top: 10px;
     font-family:Cursed Timer ULiL;
 }
-
+.hm-btn-one,
+.hm-btn-two,
+.hm-btn-three{
+    background-color: #1B244A;
+    outline: none;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+}
+.gst-btn-one,
+.gst-btn-two,
+.gst-btn-three{
+    background-color: #1B244A;
+    outline: none;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+}
 
 
