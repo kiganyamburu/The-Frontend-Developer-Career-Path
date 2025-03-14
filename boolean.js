@@ -8,3 +8,5 @@ function processOrder() {
     }
 }
 processOrder();
+
+// in js empty string is interpreted as false value
