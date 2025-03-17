@@ -9,7 +9,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardEl = document.querySelector("#cards-el")
 
-cardEl.textContent = "Card: " + firstCard + ", " + secondCard
+cardEl.textContent = "Card: " + firstCard + " " + secondCard
 sumEl.textContent = "sum: " + sum
 function startGame() {
     if (sum <= 20) {
