@@ -23,18 +23,7 @@ h1 {
     font-style: italic;
 }
 
-#btn-one {
-    color: #016f32;
-    width:150px;
-    background-color: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    /* border:none; */
-    border-radius:2px;
-    margin-bottom: 2px;
-}
-#btn-two {
+button {
     color: #016f32;
     width:150px;
     background-color: goldenrod;
@@ -44,4 +33,5 @@ h1 {
     /* border:none; */
     border-radius:2px;
     margin-top: 2px;
+    margin-bottom: 2px;
 }
