@@ -1,11 +1,18 @@
 body {
     margin: 0;
-    background-color: #1B244A;
+    /* background-color: #1B244A; */
     color: #FFFFFF;
+    background-image: url("images/bg.jpg");
+    background-size: auto;
+    
 }
 .container {
     display: flex;
     justify-content: space-around;
+    
+    
+
+
 }
 .container h3{
     font-family: "Verdana";
