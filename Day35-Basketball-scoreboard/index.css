@@ -2,13 +2,18 @@ body {
     margin: 0;
     /* background-color: #1B244A; */
     color: #FFFFFF;
-    background-image: url("images/bg3.jpg");
+    background-image: url("images/bg.jpg");
     background-size: auto;
     
 }
 .container {
     display: flex;
     justify-content: space-evenly;
+    border: 2px solid ;
+    height: 200px;
+    width: 300px;
+    margin-top:20px;
+    margin-left: 20px;
 
 }
 .container h3{
