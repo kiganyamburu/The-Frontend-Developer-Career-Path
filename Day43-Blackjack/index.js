@@ -16,7 +16,7 @@ function startGame() {
 }
 function renderGame() {
     // render out first and second cards only 
-    cardsEl.textContent = "Cards: " + cards[0]+ " " + cards[1]
+    cardsEl.textContent = "Cards: " 
     // render out all the cards we have 
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
