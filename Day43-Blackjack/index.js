@@ -9,10 +9,11 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+// getRandomCard function
 function getRandomCard() {
     return 5
 }
-
+// startGame() function 
 function startGame() {
     renderGame()
 }
