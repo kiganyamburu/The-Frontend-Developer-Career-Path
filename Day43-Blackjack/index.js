@@ -7,6 +7,8 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
+console.log(cards)
+
 
 // getRandomCard function
 function getRandomCard() {
@@ -19,9 +21,15 @@ function getRandomCard() {
         return randomNumber
     }
 }
+
+
 // startGame() function 
 function startGame() {
     isAlive = true
+    let firstCard = getRandomCard()
+    let secondCard = getRandomCard()
+    cards = [firstCard, secondCard]
+    sum = firstCard + secondCard
     renderGame()
 }
 
