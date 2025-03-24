@@ -9,6 +9,11 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 console.log(cards)
 
+let player = {
+    name: "Peter",
+    chips: 124
+}
+
 
 // getRandomCard function
 function getRandomCard() {
