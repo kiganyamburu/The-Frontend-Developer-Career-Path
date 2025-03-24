@@ -1,3 +1,7 @@
+let player = {
+    name: "Peter",
+    chips: 124
+}
 
 let cards = []
 let sum = 0
@@ -9,10 +13,7 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 console.log(cards)
 
-let player = {
-    name: "Peter",
-    chips: 124
-}
+
 
 let playersEl = document.getElementById("player-el")
 playersEl.textContent = player.name + ":  $" + player.chips
