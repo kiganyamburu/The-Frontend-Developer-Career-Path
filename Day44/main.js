@@ -1,4 +1,4 @@
-let age = 15
+let age = 80
 
 // less than 6 years old -> free
 // 6 to 17 years old     -> child discount
