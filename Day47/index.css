@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1F2937;
-    color: #4ADF86;
+    color: #4ADF86;  
 }
 
 button{
@@ -11,9 +11,15 @@ button{
     padding: 5px 9px;
     border-radius: 5px;
     color: #D5D4D8;
-    
+
 }
 
 p{
     color: #D5D4D8;
+    align-items: center;
+}
+
+button:hover{
+    background-color:blue;
+
 }
