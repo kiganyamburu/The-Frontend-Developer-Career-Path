@@ -7,3 +7,11 @@ let orangeShelf = document.getElementById("orange-shelf")
 // a conditional statement, and the textContent property.
 
 
+function putApple() {
+    
+    
+}
+
+function putOrange() { 
+
+}
