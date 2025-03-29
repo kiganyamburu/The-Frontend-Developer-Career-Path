@@ -8,7 +8,10 @@ body {
 button{
     background-color: #10B981;
     /* margin: 3px; */
-    padding: 3px;
+    padding: 5px 9px;
+    border-radius: 5px;
     
-
+}
+p{
+    color: #D5D4D8;
 }
