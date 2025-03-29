@@ -2,12 +2,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1F2937;
-    color: white;
+    color: #4ADF86;
 }
 
 button{
-    background-color: green;
+    background-color: #10B981;
     /* margin: 3px; */
     padding: 3px;
+    
 
 }
