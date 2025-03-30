@@ -1,8 +1,14 @@
 body {
-    margin: 0;
-    padding: 0;
+    background-color:#140101;
+}
+.main-container {
+    height: 4000px;
+    width: 400px;
     background-color:#1F2937;
-    color: #FFFFFF;
+    color:#140101;
+    display: inline-block;
+    justify-items:center ;
+    border-color: black;
 }
 .h-one {
 margin-bottom: 0px;
@@ -21,6 +27,7 @@ button {
     background-color:#4ADF86;
 }
 input{
+    margin-top: 10px;
     border-radius:5px ;
     background-color: #1F2937;
     color:#2F3E53;
