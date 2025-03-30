@@ -1,19 +1,61 @@
-# Getting Started
-Install the dependencies and run the project
+# 🔐 Password Generator
+
+A simple yet powerful **Password Generator** built using **HTML, CSS, and JavaScript**. This tool helps users create strong and secure passwords with customizable options.
+
+## 🚀 Features
+- Generate **random, strong passwords** instantly.
+- Customize password length (8–32 characters).
+- Choose character types:
+  - ✅ Uppercase letters (A-Z)
+  - ✅ Lowercase letters (a-z)
+  - ✅ Numbers (0-9)
+  - ✅ Special characters (!@#$%^&*...)
+- **Copy to clipboard** with one click.
+- **Password strength indicator**.
+- **User-friendly interface** with responsive design.
+
+## 🛠️ Technologies Used
+- **HTML** – For structuring the UI.
+- **CSS** – For styling and layout.
+- **JavaScript** – For password generation logic and clipboard functionality.
+
+## 🎯 How to Use
+1. Open the project in a browser.
+2. Set your preferred **password length** and select character options.
+3. Click the **Generate Password** button.
+4. Click the **Copy** button to copy the generated password.
+
+## 📂 Project Structure
 ```
-npm install
-npm start
+📁 password-generator/
+├── 📄 index.html       # Main HTML file
+├── 📄 styles.css       # CSS for styling
+├── 📄 script.js        # JavaScript for logic
+└── 📄 README.md        # Project documentation
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## 🛠️ Setup Instructions
+### Option 1: Run Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/password-generator.git
+   ```
+2. Open `index.html` in your browser.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+### Option 2: Use Online (GitHub Pages or Netlify)
+- Deploy the project and access it online!
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🚧 Future Improvements
+- ✅ Dark mode support
+- ✅ Save user preferences
+- ✅ Allow users to exclude similar characters (e.g., `O` and `0`)
 
-Happy Coding!
+## 📝 License
+This project is **open-source** under the [MIT License](LICENSE).
+
+## 💡 Contributions
+Contributions are welcome! Feel free to fork, modify, and submit a pull request.
+
+---
+Made with ❤️ by Peter Mburu
+
