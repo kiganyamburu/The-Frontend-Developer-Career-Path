@@ -20,3 +20,12 @@ button {
     border-radius: 8px;
     background-color:#4ADF86;
 }
+input{
+    border-radius:5px ;
+    background-color: #1F2937;
+    color:#2F3E53;
+}
+
+hr{
+background-color:#2F3E53;
+}
