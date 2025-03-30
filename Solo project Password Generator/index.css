@@ -4,3 +4,19 @@ body {
     background-color:#1F2937;
     color: #FFFFFF;
 }
+.h-one {
+margin-bottom: 0px;
+}
+.h-two {
+    margin-top: 0px;
+    color: #4ADF86;
+}
+
+p {
+margin-top: 0px;
+}
+button {
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color:#4ADF86;
+}
