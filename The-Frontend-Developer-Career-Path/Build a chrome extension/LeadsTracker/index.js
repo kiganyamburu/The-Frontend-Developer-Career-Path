@@ -1,4 +1,4 @@
-function clicks() {
+function clicked() {
     console.log('Button clicked');
 }
 clicks();
