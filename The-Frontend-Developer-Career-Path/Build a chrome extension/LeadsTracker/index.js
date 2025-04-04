@@ -1,4 +1,3 @@
-function clicked() {
+function saveLead() {
     console.log('Button clicked');
 }
-clicks();
