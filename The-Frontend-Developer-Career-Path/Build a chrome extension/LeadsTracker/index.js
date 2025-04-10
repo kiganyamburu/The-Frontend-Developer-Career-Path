@@ -18,3 +18,7 @@ ulEl.innerHTML = listItems
 function next(){
     console.log("")
 }
+
+function sendSell(){
+    console.log()
+}
