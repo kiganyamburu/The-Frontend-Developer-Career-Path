@@ -259,3 +259,31 @@ function next(){
 function sendSell(){
     console.log()
 }
+function next(){
+    console.log("")
+}
+
+function sendSell(){
+    console.log()
+}
+function next(){
+    console.log("")
+}
+
+function sendSell(){
+    console.log()
+}
+function next(){
+    console.log("")
+}
+
+function sendSell(){
+    console.log()
+}
+function next(){
+    console.log("")
+}
+
+function sendSell(){
+    console.log()
+}
