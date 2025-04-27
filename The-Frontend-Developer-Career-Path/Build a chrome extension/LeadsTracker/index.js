@@ -258,6 +258,8 @@ function next(){
 
 function sendSell(){
     console.log()
+    console.log()
+    console.log()
 }
 function next(){
     console.log("")
