@@ -32,12 +32,13 @@ button {
 }
 
 ul {
+    margin-top: 20px;
     list-style:none;
     padding-left: 0;
+    
 }
 
 li {
-    list-style:none;
     margin-top: 5px;
     
 }
