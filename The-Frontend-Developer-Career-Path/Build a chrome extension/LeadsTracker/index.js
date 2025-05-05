@@ -1,7 +1,4 @@
-let myLeads = ["www.awesomelead.com"]
-myLeads = JSON.stringify(myLeads)
-
-
+let myLeads = []
 
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
@@ -16,6 +13,9 @@ localStorage.clear()
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
+
+
     renderLeads()
 })
 
