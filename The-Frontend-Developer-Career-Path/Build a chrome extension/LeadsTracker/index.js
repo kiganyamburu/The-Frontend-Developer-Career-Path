@@ -1,4 +1,8 @@
-let myLeads = []
+let myLeads = ["www.awesomelead.com"]
+myLeads = JSON.stringify(myLeads)
+
+
+
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
@@ -29,3 +33,5 @@ function renderLeads() {
     }
     ulEl.innerHTML = listItems;
 }
+
+
