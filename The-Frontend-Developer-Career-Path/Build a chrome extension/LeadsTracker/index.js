@@ -4,8 +4,13 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
-// localStorage.clear()
-let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
+
+
+let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
+if (leadsFromLocalStorage) {
+    myLeads = leadsFromLocalStorage
+    renderLeads()
+}
 
 
 
