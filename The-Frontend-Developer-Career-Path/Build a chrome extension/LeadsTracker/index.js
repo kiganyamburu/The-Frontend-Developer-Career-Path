@@ -57,3 +57,9 @@ inputBtn.addEventListener("click", function () {
   localStorage.setItem("myLeads", JSON.stringify(myLeads));
   render(myLeads);
 });
+inputBtn.addEventListener("click", function () {
+  myLeads.push(inputEl.value);
+  inputEl.value = "";
+  localStorage.setItem("myLeads", JSON.stringify(myLeads));
+  render(myLeads);
+});
