@@ -29,16 +29,10 @@ function render(leads) {
 }
 
 deleteBtn.addEventListener("dblclick", function() {
-    render(myLeads)
+    
 })
 
 inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value)
+    console.log(inputEl.value)
     inputEl.value = ""
-    render(myLeads)
-})
-inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value)
-    inputEl.value = ""
-    render(myLeads)
 })
