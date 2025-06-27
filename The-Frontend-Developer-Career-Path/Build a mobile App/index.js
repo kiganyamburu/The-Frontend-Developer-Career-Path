@@ -2,7 +2,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebas
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js"
 
 
-
 const firebaseConfig = {
    database:"https://leads-tracker-app-f1bb9-default-rtdb.europe-west1.firebasedatabase.app/"
 }
@@ -33,6 +32,11 @@ deleteBtn.addEventListener("dblclick", function() {
     render(myLeads)
 })
 
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEl.value)
+    inputEl.value = ""
+    render(myLeads)
+})
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
