@@ -58,7 +58,7 @@ a {
     margin: 0;
 }
 .hero-heading span {
-    color: #007000;
+    color: black;
     font-weight: 700;
     line-height: 1;
 }
@@ -92,7 +92,7 @@ a {
     margin: 0 auto;
     padding: 20px 40px;
     width: 800px;
-    color: #007000;
+    color: white;
 }
 .social-links p {
     display: inline;
